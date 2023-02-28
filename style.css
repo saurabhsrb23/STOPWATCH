@@ -1,0 +1,100 @@
+body{
+    margin: 0%;
+    display: flex;
+}
+.container{
+    border: 10px double red;
+    padding: 50px;
+    text-align: center;
+    margin:80px auto;
+    border-radius: 30px;
+    
+}
+.time-display{
+    font-size: 50px;
+}
+.pointr{
+    color: green;
+}
+
+.time-btn{
+    margin-top: 30px;
+}
+#start{
+    border: 1px solid green;
+    color: green;
+    font-size: 30px;
+    padding:5px 10px;
+    border-radius: 2px ;
+    margin-right: 10px;
+    background-color: white;
+
+}
+#start:hover{
+    background: green;
+    color: white;
+}
+span:nth-child(1){
+    color: rgb(255, 128, 0);
+}
+span:nth-child(3){
+    color:darkcyan ;
+
+}
+span:nth-child(5){
+    color:darkmagenta ;
+
+}
+span:nth-child(7){
+    color:darkolivegreen ;
+
+}
+
+
+#pause{
+    background-color: white;
+    border: 1px solid red;
+    color: red;
+    font-size: 30px;
+    padding:5px 10px;
+    border-radius: 2px ;
+    margin-right: 10px;
+
+}
+#pause:hover{
+    background: red;
+    color: white;
+}
+#reset{
+    background-color: white;
+    border: 1px solid goldenrod;
+    color: goldenrod;
+    font-size: 30px;
+    padding:5px 10px;
+    border-radius: 2px ;
+    margin-right: 10px;
+
+}
+#reset:hover{
+    background: goldenrod;
+    color: white;
+}
+#cast{
+    background-color: white;
+    border: 1px solid purple;
+    color: purple;
+    font-size: 30px;
+    padding:5px 10px;
+    border-radius: 2px ;
+    margin-right: 10px;
+
+}
+#cast:hover{
+    background: purple;
+    color: white;
+}
+#cast-sec{
+    font-size: 30px;
+    color:rgb(61, 61, 61);
+    margin: 20px 0px;
+}
